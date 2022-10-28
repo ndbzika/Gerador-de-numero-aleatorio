@@ -3,3 +3,36 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+  background-color: darkcyan;
+}
+#principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#lista {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  gap: 5px;
+}
+#lista li {
+  list-style: none;
+  border: 1px solid darkmagenta;
+  border-radius: 3px;
+  width: 25px;
+  background-color: yellow;
+  text-align: center;
+  font-weight: bold;
+}
+#botaoGerar {
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  color: orange;
+  font-weight: bold;
+  box-shadow: 3px -2px red;
+}
